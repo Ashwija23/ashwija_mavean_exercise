@@ -17,7 +17,7 @@ public class WebPageTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("");
+        driver.get("https://github.com/Ashwija23/ashwija_mavean_exercise.git");git add
     }
 
     @Test
