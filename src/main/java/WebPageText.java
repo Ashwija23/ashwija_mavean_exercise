@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class WebPageTest {
+public class WebPageText {
     private static WebDriver driver;
 
     @BeforeTest
@@ -17,7 +17,7 @@ public class WebPageTest {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         Thread.sleep(2000);
-        driver.get("https://github.com/Ashwija23/ashwija_mavean_exercise.git");git add
+        driver.get("https://github.com/Ashwija23/ashwija_mavean_exercise.git");
     }
 
     @Test
