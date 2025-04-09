@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertTrue;
 
-public class WebPageText {
+public class WebPageTest {
     private static WebDriver driver;
 
     @BeforeTest
@@ -33,4 +33,8 @@ public class WebPageText {
         Thread.sleep(1000);
         driver.quit();
     }
+
+
 }
+
+
